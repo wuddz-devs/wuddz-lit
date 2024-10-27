@@ -62,6 +62,8 @@ Download 'what-shapes-us' Story To "C:\\Literotica" Directory.
 >>> l = lit.LitErotica()
 >>> l.story('what-shapes-us', d)
 ```
+## Illustration Video:
+https://mega.nz/file/BatzxIjZ#EDZy5W7RqOzNxvhqpB64FJ2fdFgad3rgEGheS_CGz88
 
 ## Contact Info:
  - Email:     wuddz_devs@protonmail.com
