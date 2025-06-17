@@ -4,7 +4,7 @@
 name: Literotica User Database Update
 
 on:
-  schedule: this runs the code everyday at midnight -4 GMT.
+  schedule:
   - cron: "0 4 * * *"
 
 jobs:
