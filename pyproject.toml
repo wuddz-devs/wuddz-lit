@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["wuddz_lit"]
+
+[project]
+name = "wuddz_lit"
+version = "1.0.7"
+description = "Wuddz-Lit Is An Awesome & Quite Efficient Literotica.com Author/Category/Audio/Illustration Stories Downloader & Search."
+readme = "README.md"
+authors = [
+  { name="Wuddz-Devs", email="wuddz_devs@protonmail.com" },
+]
+dependencies = ["requests","fastparquet"]
+license = { file = "LICENSE" }
+requires-python = ">=3.6"
+keywords = [
+        "literotica", 
+		"story", 
+		"downloader", 
+		"literature", 
+		"lit", 
+		"download", 
+		"erotic", 
+		"stories", 
+		"audio", 
+		"image", 
+		"text", 
+		"html", 
+		"python"
+]
+
+classifiers = [
+		'License :: OSI Approved :: MIT License',
+		'Programming Language :: Python',
+		'Programming Language :: Python :: 3.6',
+		'Programming Language :: Python :: 3.7',
+		'Programming Language :: Python :: 3.8',
+		'Programming Language :: Python :: 3.9',
+		'Programming Language :: Python :: 3.10',
+]
+
+[project.scripts]
+wudz-lit = "wuddz_lit.lit:cli_main"
+
+[project.urls]
+"Homepage" = "https://github.com/wuddz-devs/wuddz-lit"
